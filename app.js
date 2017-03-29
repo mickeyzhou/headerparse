@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 app.get('/', function(req, res){
-    res.send('hello');    
+    res.send('https://mickeyzhou.herokuapp.com/api/whoami');    
 });
 
 app.get('/api/whoami', function(req, res){
